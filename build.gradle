@@ -1,4 +1,7 @@
 plugins {
+    id 'com.android.application' version '8.2.2' apply false
+}
+plugins {
     id 'com.android.application'
 }
 
@@ -26,3 +29,4 @@ android {
         targetCompatibility JavaVersion.VERSION_17
     }
 }
+
